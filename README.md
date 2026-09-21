@@ -1,44 +1,41 @@
-# Blockchain-based Employment Contract System
+# 🔗 Blockchain-based Employment Contract System — WorkSafe
 
-##  Introduction
+## Introduction
 
-WorkSafe est une application décentralisée conçue pour gérer les contrats de travail avec **vérification via blockchain** et stockage sécurisé sur IPFS. L’objectif est de garantir l’authenticité et l’intégrité des contrats tout en offrant une interface simple pour les utilisateurs.
+WorkSafe is a decentralized application (dApp) designed to manage employment contracts with blockchain-based verification and secure storage on IPFS. The goal is to guarantee the authenticity and integrity of contracts while providing a simple, user-friendly interface.
 
-##  Fonctionnement
+## ⚙️ How It Works
 
-1. Les utilisateurs se connectent via **MetaMask** pour l’authentification.
-2. Les contrats sont stockés sur **IPFS** via **Pinata** pour un stockage décentralisé et sécurisé.
-3. La blockchain Ethereum enregistre les références aux contrats pour vérification et immutabilité.
-4. Les informations supplémentaires sont gérées via **Firebase**.
+1. Users authenticate via MetaMask.
+2. Contracts are stored on IPFS through Pinata for decentralized, secure storage.
+3. The Ethereum blockchain records contract references to ensure verification and immutability.
+4. Additional user/contract metadata is managed through Firebase.
 
-##  Technologies utilisées
+## 🔑 Key Features
 
-* **Frontend** : React
-* **Blockchain** : Ethereum, MetaMask
-* **Storage** : IPFS, Pinata
-* **Database / Backend** : Firebase
+- Secure authentication via MetaMask
+- Decentralized contract storage on IPFS
+- Contract authenticity verification on the Ethereum blockchain
+- Additional data management through Firebase
+- Custom Solidity smart contract (`ContractManager.sol`) for on-chain contract logic
 
-##  Fonctionnalités clés
+## 🛠️ Tech Stack
 
-* Authentification sécurisée via MetaMask
-* Stockage décentralisé des contrats sur IPFS
-* Vérification de l’authenticité sur la blockchain Ethereum
-* Gestion des données supplémentaires via Firebase
+- **Frontend**: React
+- **Blockchain**: Ethereum, Solidity, MetaMask, ethers.js / web3.js
+- **Storage**: IPFS, Pinata
+- **Database / Backend**: Firebase
 
-##  Installation & Exécution
+## 🚀 Installation & Usage
 
-1. Cloner le dépôt et installer les dépendances React
-
+Clone the repository and install React dependencies:
 ```bash
 npm install
 ```
 
-2. Lancer le projet
-
+Run the project:
 ```bash
 npm start
 ```
 
-3. Connecter MetaMask pour interagir avec la dApp
-
-
+Connect MetaMask to interact with the dApp.
